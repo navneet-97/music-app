@@ -1,0 +1,20 @@
+{
+  "name": "musucplatform",
+  "version": "1.0.0",
+  "description": "Music Streaming Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Navneet Tewtia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.2",
+    "nodemon": "^3.0.1",
+    "pug": "^3.0.2",
+    "swiper": "^10.2.0"
+  }
+}

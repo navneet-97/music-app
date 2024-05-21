@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Streaming Platform</title>
+
+    <!-- adding css and js  -->
+    <link rel="stylesheet" href="/static/home.css" />
+    <script type="module" src="/static/script.js"></script>
+
+    <!-- icons script  -->
+    <script src="https://kit.fontawesome.com/5deea4382f.js" crossorigin="anonymous"></script>
+
+    <!-- Link Swiper's CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- 1st header  -->
+    <div class="container">
+        <div class="logo">
+            <img src="/static/images/logo.webp" alt="logo" />
+            <h4>Anime Music</h4>
+        </div>
+        <div class="Search">
+            <i class="fa fa-search"></i>
+            <h3>Search</h3>
+        </div>
+        <div class="Login">
+            <i class="fa fa-user i1"></i>
+            <h5><a href="/login">Login</a></h5>
+            <i class="fa fa-bars i2"></i>
+        </div>
+    </div>
+
+    <!-- 2nd header  -->
+    <div class="lists">
+        <ul class="list">
+            <li><a href="http://localhost/">All</a></li>
+            <li><a href="#">Trending Now</a></li>
+            <li><a href="#">Old Songs</a></li>
+            <li><a href="#releases">New Songs</a></li>
+            <li><a href="#">Moods & Genre</a></li>
+            <li><a href="#">Top Albums</a></li>
+            <li><a href="#artists">Top Artists</a></li>
+            <li><a href="/playlists">Top Playlists</a></li>
+            <li><a href="#">Podcasts</a></li>
+        </ul>
+    </div>
+
+    <!-- slider html -->
+    <section class="slider_container">
+        <div class="container">
+            <div class="swiper card_slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <a href="#"><img src="/static/images/1.webp" /></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <a href="#"><img src="/static/images/2.webp" /></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <a href="#"><img src="/static/images/3.webp" /></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <a href="#"><img src="/static/images/4.webp" /></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <a href="#"><img src="/static/images/5.webp" /></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <a href="#"><img src="/static/images/6.webp" /></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <a href="#"><img src="/static/images/7.webp" /></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <a href="#"><img src="/static/images/8.webp" /></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img_box">
+                            <a href="#"><img src="/static/images/9.webp" /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2nd Swiper -->
+    <section class="three">
+        <div class="swiper mySwiper">
+            <h1 id="releases">New Releases</h1>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/10.webp" /></a>
+                    <h3>New Hindi Songs</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/11.webp" /></a>
+                    <h3>Endless Summer Vacation</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/12.webp" /></a>
+                    <h3>Midnights</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/13.webp" /></a>
+                    <h3>SOS</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/14.webp" /></a>
+                    <h3>Mann</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/15.webp" /></a>
+                    <h3>Born Pink</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/16.webp" /></a>
+                    <h3>Walkerverse</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/1.webp" /></a>
+                    <h3>Jawan</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/2.webp" /></a>
+                    <h3>Hottest Collaborations</h3>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- top Artists swiper section html  -->
+    <section class="second">
+        <div class="swiper myyySwiper">
+            <h1 id="artists">Top Artists</h1>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/Lata Mangeshkar.webp" /></a>
+                    <h3>Lata Mangeshkar</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/Arijit_Singh.webp" /></a>
+                    <h3>Arijit Singh</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/badshah.webp" /></a>
+                    <h3>Badshah</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/Diljit_Dosanjh.webp" /></a>
+                    <h3>Diljit Dosanjh</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/Dua_Lipa.webp" /></a>
+                    <h3>Dua Lipa</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/Eminem.webp" /></a>
+                    <h3>Eminem</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/honey_singh.webp" /></a>
+                    <h3>Yo Yo Honey Singh</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/Karan_Aujla.webp" /></a>
+                    <h3>Karan Aujla</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/King.webp" /></a>
+                    <h3>King</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/Mc-Square.webp" /></a>
+                    <h3>Mc Square</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/Michael Jackson.webp" /></a>
+                    <h3>Michael Jackson</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/Mohammed Rafi.webp" /></a>
+                    <h3>Mohammed Rafi</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/Neha_kakkar.webp" /></a>
+                    <h3>Neha Kakkar</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/Selena_Gomez.webp" /></a>
+                    <h3>Selena Gomez</h3>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="/static/images/Sidhu-Moosewala.webp" /></a>
+                    <h3>Sidhu Moosewala</h3>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- footer  -->
+    <footer>
+        <div class="footer">
+            <ul class="ul">
+                <li><a href="#">ABOUT US</a> |</li>
+                <li><a href="#">PRIVACY POLICY</a> |</li>
+                <li><a href="#">TERMS OF USE</a> |</li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+            <div class="icons">
+                <div>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fa fa-facebook">
+                        </i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fa fa-instagram">
+                        </i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://twitter.com/?lang=en-in" target="_blank">
+                        <i class="fa fa-twitter">
+                        </i>
+                </div>
+                </a>
+                <div>
+                    <a href="http://in.youtube.com/" target="_blank">
+                        <i class="fa fa-youtube-play">
+                        </i>
+                </div>
+                </a>
+            </div>
+        </div>
+        <div class="five">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad molestiae ab asperiores in iste vero debitis
+                aut corporis aperiam cum? Mollitia distinctio possimus quas blanditiis error molestiae dignissimos.Vel,
+                voluptatem.
+            </p>
+            <h5>2023 <i class="fa fa-copyright"></i> All rights reserved | Airtel Digital Limited
+            </h5>
+        </div>
+    </footer>
+</body>
+
+</html>

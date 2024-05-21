@@ -1,0 +1,2 @@
+copy the same code as it is and just run 'node app.js' alongwith commands 'mongod' and 'mongosh'.
+And serach local host on browser.
