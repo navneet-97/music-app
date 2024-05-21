@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background: #222;
+}
+
+/* 1st header css */
+.container {
+    cursor: pointer;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.784);
+    padding: 4px;
+}
+
+.logo {
+    display: flex;
+    margin: 2px 70px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+h4 {
+    font-size: 28px;
+    padding: 5px 0px;
+    margin: 2px 20px;
+}
+
+.Search {
+    display: flex;
+    width: 222px;
+    height: 37px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 30px;
+    margin: 10px 280px;
+    padding: 11px 44px;
+}
+
+.Search i {
+    margin: -2px 0px;
+    padding: 2px;
+}
+
+.Search h3 {
+    font-size: 25px;
+    margin: -9.5px 40px;
+    padding: 2px;
+}
+
+.Login {
+    display: flex;
+    margin: 16px 33px;
+    padding: 0px 20px;
+}
+
+.i1 {
+    margin: 1px 6px;
+    padding: 2px;
+}
+
+.Login h5 a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    margin: -5px 8px;
+    padding: 3px 2px;
+    cursor: pointer;
+}
+
+.i2 {
+    margin: 2px 25px;
+    padding: 2px;
+}
+
+/* 2nd header css */
+.list {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.59);
+    /*we can also add linear-gradient(red,blue) */
+    list-style: none;
+    padding: 18px 122px;
+}
+
+.list li a {
+    font-family: "Source Code Pro", monospace;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 18px;
+    padding: 2px;
+}
+
+.list li a:hover {
+    color: rgb(145, 93, 93);
+    text-decoration: underline;
+}
+
+/* 1st swiper css */
+section {
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+section img {
+    border-radius: 30px;
+    margin: 0px 6px;
+    padding: 0px 2px;
+}
+
+.slider_container .container {
+    max-width: 100%;
+}
+
+img {
+    width: 135%;
+}
+
+/* 2nd slider css */
+.three .swiper {
+    display: flex;
+    flex-direction: column;
+}
+
+.three .swiper h1 {
+    font-size: 30px;
+    margin: 24px 30px;
+    padding: 2px 2px;
+}
+
+.three .swiper-wrapper {
+    display: flex;
+}
+
+.three .swiper-slide a img {
+    width: 271px;
+    height: 246px;
+}
+
+.three .swiper-slide h3 {
+    text-align: center;
+    cursor: pointer;
+}
+
+/* artists section css  */
+.second .swiper {
+    display: flex;
+    flex-direction: column;
+}
+
+.second .swiper h1 {
+    font-size: 30px;
+    margin: 24px 30px;
+    padding: 2px 2px;
+}
+
+.second .swiper-wrapper {
+    display: flex;
+}
+
+.second .swiper-slide a img {
+    width: 215px;
+    border-radius: 130px;
+}
+
+.second .swiper-slide h3 {
+    text-align: center;
+    cursor: pointer;
+}
+
+/* footer css  */
+.footer {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 15px 20px;
+}
+
+.ul {
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    position: relative;
+    left: 40%;
+}
+
+.ul li {
+    list-style: none;
+    margin: 0px 10px;
+    padding: 9px 0px;
+}
+
+.ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.icons i {
+    color: white;
+    border: 1px solid white;
+    border-radius: 33px;
+    margin: 0px 10px;
+    padding: 10px 10px;
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    text-align: center;
+    width: 50%;
+    margin: 10px 80px;
+    padding: 4px;
+    font-family: "Source Code Pro", monospace;
+}
+
+.five h5 {
+    font-size: 15px;
+    position: relative;
+    left: 12.5%;
+    margin: 5px 0px;
+    padding: 2px 0px;
+}
